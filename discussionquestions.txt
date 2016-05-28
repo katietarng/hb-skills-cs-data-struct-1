@@ -1,0 +1,44 @@
+RUNTIME
+1. The workload is the length of the list of integers that the function took in as an argument. 
+2. O(1), O(log n), O(n), O(n log n), O(n^2), O(2^n)
+
+STACKS AND QUEUES
+1. 1. stacks
+   2. queues
+   3. stacks
+2. Task Managers, Coffee orders in a coffee shop
+3. Washing a pile of dishes, organizing a stack of books
+
+LINKED LISTS
+1. The nodes are Node apple, Node berry, and Node cherry. The data for each node is string apple, string berry and string cherry. The head is an attribute of the linked list that is currently bound to Node apple. There is no tail attribute on this linked list. 
+2. A doubly linked list has three attributes - the data, the next, and a previous attribute where each node points to both the next node and the node before it. A single linked list only has data and a next attribute and it only points to the next node. 
+3. Keeping track of the tail of a linked list prevents us from having to traverse through the entire list when we want to append a node.  
+
+TREE
+1. [food]
+   [Italian, Indian, Mexican]
+   [Indian, Mexican, lasagna, pizza]
+   [Mexican, lasagna, pizza, tikka masala, saag]
+   [lasagna, pizza, tikka masala, saag, burrito, tacos, enchiladas]
+   [pizza, tikka masala, saag, burrito, tacos, enchiladas]
+   [tikka masala, saag, burrito, tacos, enchiladas, thin crust, Chicago-style, New York-style, Sicilian]
+   [saag, burrito, tacos, enchiladas, thin crust, Chicago-style, New York-style, Sicilian]
+   [burrito, tacos, enchiladas, thin crust, Chicago-style, New York-style, Sicilian]
+   burrito!
+
+2. [food]
+   [Italian, Indian, Mexican]
+   [Italian, Indian, burrito, tacos, enchiladas]
+   [Italian, Indian, burrito, tacos]
+   [Italian, Indian, burrito]
+   [Italian, Indian]
+   [Italian, tikka masala, saag]
+   [Italian, tikka masala]
+   [Italian]
+   [lasagna, pizza]
+   [lasagna, thin crust, Chicago-style, New York-style, Sicilian]
+   [lasagna, thin crust, Chicago-style, New York-style]
+   [lasagna, thin crust, Chicago-style]
+   Chicago-style!
+
+3. A binary search tree contains a collection of nodes that have at most 2 children per node. 
